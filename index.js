@@ -22,7 +22,7 @@ async function createPlaylist(playlistData) {
 const options = {
     method: 'POST',
     headers:{
-    Authorization: 'Bearer BQBtdwogS5M_A-9kNng5ax5w6j4FJIIb80P6XtlnWFTKWu58AAn6bXijEhp8JuS35iqQ-xOpudQrzlZbbFMOgFwG-0CXoEpx5cdBVep8Zoo1NeZR4gHjN4RFG-9aMcQXnuccAh6qoJVWmnqDsCsOXv-ZpMFki2M0nMH4FRVW2Y1Ls-iBV0x5ySvXoXL5eOevtPIDPOZc71valXj1xgY8q4UfWan9bqkkUQFvwLnHUnQEkIPSQS8ENEuq1Mf2QEhWa4v52kC4i53OAd5WAWDRG1zQOrZzO2iuK9Z8StIo1feC',
+    Authorization: 'Bearer BQCbCUQNADA28SeT0V2vvTf1Rc-ZHbaX_xk4BRifyQBzSfwYJMgj6o-M-85Qv3jZZDc8wqIpfgwPBykDWvJTGlH1OKbqY6sNWYRNFgUD2smcSqWMpVpp7FqXUrELoofkTWIqJwRpCiMB_apQnBOwURZK88Hg2RsKQExwQ8Lf4zImJnE1agLOiSFcEnGfVlQHGdiscjng059EDeQHWNsaJhkBQBRix5huQEIruMZyvhxjxB6IyWm4LSUcfJ0uUU-Vf3GDFNw0sQoALpoweGvXHvGP-SVUXWFhx-7DOt1Xd1xR',
     "Content-Type":"application/json"
     },
     body:JSON.stringify(playlistData)
@@ -89,7 +89,7 @@ async function addPlaylistSongs(songData) {
   const options = {
     method: "POST",
     headers:{
-      Authorization: 'Bearer BQBtdwogS5M_A-9kNng5ax5w6j4FJIIb80P6XtlnWFTKWu58AAn6bXijEhp8JuS35iqQ-xOpudQrzlZbbFMOgFwG-0CXoEpx5cdBVep8Zoo1NeZR4gHjN4RFG-9aMcQXnuccAh6qoJVWmnqDsCsOXv-ZpMFki2M0nMH4FRVW2Y1Ls-iBV0x5ySvXoXL5eOevtPIDPOZc71valXj1xgY8q4UfWan9bqkkUQFvwLnHUnQEkIPSQS8ENEuq1Mf2QEhWa4v52kC4i53OAd5WAWDRG1zQOrZzO2iuK9Z8StIo1feC',
+      Authorization: 'Bearer BQCbCUQNADA28SeT0V2vvTf1Rc-ZHbaX_xk4BRifyQBzSfwYJMgj6o-M-85Qv3jZZDc8wqIpfgwPBykDWvJTGlH1OKbqY6sNWYRNFgUD2smcSqWMpVpp7FqXUrELoofkTWIqJwRpCiMB_apQnBOwURZK88Hg2RsKQExwQ8Lf4zImJnE1agLOiSFcEnGfVlQHGdiscjng059EDeQHWNsaJhkBQBRix5huQEIruMZyvhxjxB6IyWm4LSUcfJ0uUU-Vf3GDFNw0sQoALpoweGvXHvGP-SVUXWFhx-7DOt1Xd1xR',
     "Content-Type":"application/json"
     },body:JSON.stringify(songData)
   };
