@@ -14,7 +14,6 @@ const newPlaylistBody = {
   "name":"Destiny <3 Drake",
   "description":"Drake is the goat",
   "public":true
-
 };
 
 // 3. Add `playlistData` as a parameter to the asynchronous function `createPlaylist`.
@@ -64,10 +63,10 @@ let addingSongsURL = "https://api.spotify.com/v1/playlists/4lwfkFrbgOHFltKrZKqMf
 //    - Ex: https://open.spotify.com/track/6a6JDEQbXdxkWFRIA0pRqL?si=e9e0c29125a746f6 => spotify:track:6a6JDEQbXdxkWFRIA0pRqL
 
 const songs = [
-"spotify:track:2aSC2xhRxOLiiZZVjhbylH",
-"spotify:track:2aSC2xhRxOLiiZZVjhbylH",
-"spotify:track:2aSC2xhRxOLiiZZVjhbylH",
-"spotify:track:2aSC2xhRxOLiiZZVjhbylH"
+"spotify:track:6I86RF3odBlcuZA9Vfjzeq",
+"spotify:track:6I86RF3odBlcuZA9Vfjzeq",
+"spotify:track:6I86RF3odBlcuZA9Vfjzeq",
+"spotify:track:6I86RF3odBlcuZA9Vfjzeq"
 ];
 
 // 3. The documentation describes how to create the request body. Using that information update the object below called `newSongsBody`
