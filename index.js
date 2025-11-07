@@ -55,7 +55,7 @@ createPlaylist(newPlaylistBody)
 // 1. Look through the Spotify API Documentation and find the end point for adding songs to a playlist.
 // Update the variable below called `addingSongsURL` and add the URL, use the playlist_id that you recieved from the function above
 
-let addingSongsURL = "https://api.spotify.com/v1/playlists/4lwfkFrbgOHFltKrZKqMfk/tracks";
+let addingSongsURL = "https://api.spotify.com/v1/playlists/6iu0ivTWFa0J06PpGJ8s9F/tracks";
 
 // 2. Find 4 songs on spotify and add them to the songs array below. (If spotify is blocked use the example below, or ask Mr.Castro)
 //    - The songs should be in the format: "spotify:track:<track_id>"
